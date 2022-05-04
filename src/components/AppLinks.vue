@@ -142,6 +142,10 @@ export default {
     .width{
         width: 60%;
         margin: auto;
+        background-image: url(../assets/images/dc-logo-bg.png);
+        height: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
     }
     ul li {
         cursor: pointer;
@@ -153,4 +157,5 @@ export default {
         color: $dcwhite;
         margin-bottom: 20px;
     }
+    
 </style>
