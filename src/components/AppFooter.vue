@@ -69,6 +69,7 @@ nav ul li {
     color: $dcblue;
     font-weight: bold;
     cursor: pointer;
+    text-transform: uppercase;
 }
 img{
     width: 20px;

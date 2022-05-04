@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    
+
     <app-header/>
 
-    
     <app-grid/>
-    
+
     <app-main/>
+
+    <app-links/>
 
     <app-footer/>
   </div>
@@ -16,6 +17,7 @@
 import AppHeader from "./components/AppHeader.vue"
 import AppGrid from "./components/AppGrid.vue"
 import AppMain from "./components/AppMain.vue"
+import AppLinks from './components/AppLinks.vue'
 import AppFooter from "./components/AppFooter.vue"
 export default {
   name: 'App',
@@ -23,8 +25,8 @@ export default {
     AppHeader,
     AppGrid,
     AppMain,
+    AppLinks,
     AppFooter,
-
   }
 }
 </script>

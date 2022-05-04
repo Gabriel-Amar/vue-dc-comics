@@ -94,6 +94,8 @@ export default {
     gap: 30px;
     cursor: pointer;
     padding: 40px;
+    text-transform: uppercase;
+
   }
   nav ul li{
     font-size: $dcsize;
