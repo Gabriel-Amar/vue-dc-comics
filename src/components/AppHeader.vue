@@ -79,6 +79,10 @@ export default {
   .selected{
     color: $dcblue;
   }
+  nav .selected{
+    border-bottom: 1px solid $dcblue;
+    
+  }
   header{
     display: flex;
     align-items: center;
