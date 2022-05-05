@@ -46,8 +46,7 @@ export default {
     @import "../style/variables";
     main{
         background-color: $dcblue;
-        
-    }
+    
     ul{
         display: flex;
         justify-content: space-between;
@@ -55,7 +54,7 @@ export default {
         margin: auto;
         padding: 50px;
         cursor: pointer;
-    }
+    
     li{
         display: flex;
         align-items: center;
@@ -64,6 +63,8 @@ export default {
     }
     img{
         width: 45px;
+    }
+    }
     }
 
 </style>

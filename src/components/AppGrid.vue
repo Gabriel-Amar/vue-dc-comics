@@ -1,7 +1,9 @@
 <template>
     <div class="container">
         <div class="width">
-            <div class="text">Current series</div>
+            <div class="text">
+              Current series
+            </div>
             <ul>
                 <li v-for="(item, index) in grid" :key="index">
                     <img :src="item.thumb" alt="">

@@ -58,18 +58,21 @@ footer{
     margin: auto;
     
 }
-nav ul{
-    display: flex;
-    list-style-type: none;
-    padding: 40px;
-    align-items: center;
-}
-nav ul li {
-    font-size: $dcsize;
-    color: $dcblue;
-    font-weight: bold;
-    cursor: pointer;
-    text-transform: uppercase;
+nav { 
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 40px;
+        align-items: center;
+
+    li {
+        font-size: $dcsize;
+        color: $dcblue;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    }
 }
 img{
     width: 20px;

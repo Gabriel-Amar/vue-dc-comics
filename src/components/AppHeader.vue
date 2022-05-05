@@ -81,7 +81,6 @@ export default {
   }
   nav .selected{
     border-bottom: 1px solid $dcblue;
-    
   }
   header{
     display: flex;
@@ -90,8 +89,12 @@ export default {
     background-color: $dcwhite;
     width: $dcwidth;
     margin: auto;
+    img{
+      width: 60px;
+    }
   }
-  nav ul {
+  nav{
+    ul {
     display: flex;
     margin-left: 20px;
     list-style-type: none;
@@ -99,13 +102,10 @@ export default {
     cursor: pointer;
     padding: 40px;
     text-transform: uppercase;
-
-  }
-  nav ul li{
-    font-size: $dcsize;
-  }
-  img{
-    width: 60px;
+    }
+    li{
+      font-size: $dcsize;
+    }
   }
   
 

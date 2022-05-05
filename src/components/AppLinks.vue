@@ -133,11 +133,12 @@ export default {
         height: 430px;
         background-position: center;
         background-size: cover;
-    }
+        
     section{
         float: left;
         margin-right: 60px;
         margin-top: 60px;
+    }
     }
     .width{
         width: 60%;
